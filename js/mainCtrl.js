@@ -1,5 +1,10 @@
 angular.module('friendsList').controller('mainCtrl', function($scope) {
-  $scope.friends = [{
+  $scope.friends = [
+  {
+    name: "Brett muhFuggin Caudill",
+    age: 28
+  },
+  {
       name: "Joe",
       age: "27 or 28ish"
   },
@@ -11,9 +16,5 @@ angular.module('friendsList').controller('mainCtrl', function($scope) {
     name: "Brayden",
     age: 22
   },
-  {
-    name: "Brett muhFuggin Caudill",
-    age: 28
-  }
 ]
 });
